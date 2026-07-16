@@ -30,7 +30,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="py-20 bg-white dark:bg-black text-neutral-800 dark:text-white transition-colors duration-300 border-t border-neutral-100 dark:border-neutral-900"
+      className="py-20 bg-white dark:bg-black text-neutral-800 dark:text-white transition-colors duration-300"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
