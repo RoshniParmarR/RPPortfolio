@@ -36,7 +36,7 @@ const Experience = () => {
       id="experience"
       className="py-20 bg-neutral-50 dark:bg-black text-neutral-800 dark:text-white transition-colors duration-300"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
 
         {/* Section Title */}
         <ScrollReveal direction="up">

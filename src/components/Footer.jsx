@@ -18,7 +18,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-white dark:bg-black text-neutral-500 dark:text-neutral-400 py-4 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex flex-col space-y-6">
           {/* Row 1: Logo (Centered) */}
           <div className="flex justify-center py-4 lg:py-16">

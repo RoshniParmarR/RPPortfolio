@@ -22,6 +22,20 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+      document.documentElement.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+      document.documentElement.style.overflow = '';
+    };
+  }, [isOpen]);
+
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -34,13 +48,13 @@ const Header = () => {
 
   return (
     <header
-      className={`left-0 right-0 z-50 transition-all duration-300 ${scrolled
-        ? 'fixed top-0 glass-effect shadow-md'
-        : 'absolute top-0 bg-transparent border-b border-transparent'
+      className={`left-0 right-0 z-50 transition-all duration-300 ${scrolled || isOpen
+        ? 'fixed top-0 bg-white dark:bg-black md:glass-effect '
+        : 'absolute top-0 bg-transparent  border-transparent shadow-none'
         }`}
     >
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className={`flex items-center justify-between transition-all duration-300 ${scrolled ? 'h-16' : 'h-16 md:h-20'}`}>
           {/* Logo */}
           <a
             href="#home"
@@ -49,7 +63,7 @@ const Header = () => {
             <img
               src={logoImg}
               alt="RP Logo"
-              className={`h-auto object-contain dark:invert-0 invert transition-all duration-300 group-hover:scale-105 ${scrolled ? 'w-16' : 'w-20'
+              className={`h-auto object-contain dark:invert-0 invert transition-all duration-300 group-hover:scale-105 ${scrolled ? 'w-16' : 'w-16 md:w-20'
                 }`}
             />
 
@@ -84,16 +98,16 @@ const Header = () => {
 
       {/* Mobile Drawer Menu */}
       <div
-        className={`md:hidden fixed inset-x-0 top-[73px] bottom-0 z-40 bg-white/95 dark:bg-black/95 backdrop-blur-lg transform transition-transform duration-300 ease-in-out border-t border-gray-100 dark:border-neutral-900 ${isOpen ? 'translate-x-0' : 'translate-x-full'
+        className={`md:hidden fixed inset-x-0 top-16 bottom-0 z-40 bg-white dark:bg-black transform transition-transform duration-300 ease-in-out  ${isOpen ? 'translate-x-0' : 'translate-x-full'
           }`}
       >
-        <nav className="flex flex-col space-y-4 p-6">
+        <nav className="flex flex-col space-y-4 py-6 px-8">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
-              className="nav-link text-[14px] font-medium text-gray-800 dark:text-neutral-200 hover:text-black dark:hover:text-white py-2 border-b border-gray-100 dark:border-neutral-800"
+              className="nav-link text-[14px] font-medium text-gray-800 dark:text-neutral-200 hover:text-black dark:hover:text-white py-2"
             >
               {link.name}
             </a>

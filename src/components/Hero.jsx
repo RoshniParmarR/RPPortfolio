@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="absolute top-1/4 left-1/10 w-72 h-72 rounded-full bg-gray-400/10 dark:bg-neutral-900/5 blur-3xl animate-pulse-slow"></div>
       <div className="absolute bottom-1/4 right-1/10 w-96 h-96 rounded-full bg-gray-300/10 dark:bg-neutral-950/5 blur-3xl animate-pulse-slow"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full z-10">
+      <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 w-full z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
           {/* Hero text */}
@@ -111,7 +111,7 @@ const Hero = () => {
           </div>
 
           {/* Hero Avatar Image */}
-          <div className="lg:col-span-5 flex justify-center w-full">
+          <div className="lg:col-span-5 flex justify-center w-full mb-14 lg:mb-0">
             <ScrollReveal direction="scale" delay={300} duration={1000} className="w-full flex justify-center">
               <img
                 src={avatarImg}

@@ -174,7 +174,7 @@ const Skills = () => {
       {/* Ambient background glow (strictly neutral/grey to fit color rules) */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 h-[350px] w-[600px] rounded-full bg-neutral-200/10 dark:bg-neutral-900/10 blur-[100px] pointer-events-none select-none z-0" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 font-sans relative z-10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 font-sans relative z-10">
 
         {/* Section Header */}
         <ScrollReveal direction="up">
@@ -194,10 +194,10 @@ const Skills = () => {
             {skills.map((skill) => (
               <div
                 key={skill.label}
-                className="w-28 h-28 flex flex-col items-center justify-center border border-neutral-200/60 dark:border-neutral-900 bg-white/40 dark:bg-neutral-955/40 backdrop-blur-md hover:border-black dark:hover:border-white active:scale-95 transition-all duration-300 select-none"
+                className="group w-28 h-28 flex flex-col items-center justify-center border border-neutral-200/60 dark:border-neutral-800/60 bg-white/40 dark:bg-neutral-900/30 backdrop-blur-md hover:border-black dark:hover:border-neutral-200 hover:bg-white dark:hover:bg-neutral-900/80 active:scale-95 transition-all duration-300 select-none"
               >
                 {/* SVG Icon */}
-                <div className="text-neutral-800 dark:text-neutral-200  transition-transform duration-300 mb-2">
+                <div className="text-neutral-800 dark:text-neutral-200 transition-transform duration-300 mb-2 group-hover:scale-110">
                   {skill.icon}
                 </div>
 

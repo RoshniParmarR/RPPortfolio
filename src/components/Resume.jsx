@@ -183,7 +183,7 @@ const Resume = ({ isHidden = false }) => {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-neutral-200 transition-colors duration-300 py-8 px-4 print:p-0 print:bg-white print:text-black">
+    <div className="min-h-screen bg-neutral-100 dark:bg-neutral-950 text-neutral-800 dark:text-neutral-200 transition-colors duration-300 py-8 px-6 print:p-0 print:bg-white print:text-black">
 
       {/* Print-specific style overrides */}
       <style dangerouslySetInnerHTML={{
