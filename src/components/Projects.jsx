@@ -1,68 +1,49 @@
 import React from 'react';
 import ScrollReveal from './ScrollReveal';
-import dashboardImg from '../assets/project_dashboard.png';
-import chatImg from '../assets/project_chat.png';
-import ecommerceImg from '../assets/project_ecommerce.png';
-import harmonyImg from '../assets/project_harmony.png';
-import sumukhImg from '../assets/project_sumukh.png';
-import pratickImg from '../assets/project_pratick.png';
-import zeckImg from '../assets/project_zeck.png';
-import sterlingImg from '../assets/project_sterling.png';
-import aibamsImg from '../assets/project_aibams.png';
+import ecommerceImg from '../assets/Screenshot 2026-07-17 161829.png';
+import harmonyImg from '../assets/mindcare_clinic.png';
+import sumukhImg from '../assets/axion_manufacturing_mockup.png';
+import pratickImg from '../assets/rk_construction_mockup.png';
+import zeckImg from '../assets/zeko_website_mockup.png';
+import sterlingImg from '../assets/sterling_website_mockup.png';
+import aibamsImg from '../assets/landing_page.png';
 
 const Projects = () => {
   const projects = [
-    {
-      id: 1,
-      title: 'Blog System with Admin Panel',
-      category: 'Full Stack',
-      image: dashboardImg,
-      tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'JWT'],
-      summary: 'A full-featured blog platform with user authentication, admin panel, and complete CRUD operations.',
-      description: 'A robust and scalable blog application featuring user authentication, role-based admin controls, and complete CRUD functionality. Built with a React frontend and a FastAPI backend connected to PostgreSQL database, securing endpoints with JWT tokens.',
-      features: [
-        'Full-featured blog platform with markdown support',
-        'JWT-based user authentication and admin dashboard controls',
-        'Designed RESTful API endpoints with FastAPI',
-        'Connected to a relational PostgreSQL database structure'
-      ],
-      github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
-    },
-    {
-      id: 2,
-      title: 'Telusko Track',
-      category: 'Frontend',
-      image: chatImg,
-      tags: ['React', 'TypeScript', 'Framer Motion', 'FastAPI', 'PostgreSQL'],
-      summary: 'A tracking and progress application featuring premium Framer Motion animations.',
-      description: 'Telusko Track is a progress tracking dashboard designed with a strong focus on UI/UX. It incorporates fluid Framer Motion animations to guide user navigation and interactivity, backed by a FastAPI and PostgreSQL integration for progress logging.',
-      features: [
-        'Visual tracking dashboards with progress analytics',
-        'Applied Framer Motion animations for enhanced interactivity',
-        'Full-stack state integration with persistent progress logging',
-        'Responsive grid view optimized for mobile and desktop screens'
-      ],
-      github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
-    },
-    {
-      id: 3,
-      title: 'To-Do List App',
-      category: 'Full Stack',
-      image: ecommerceImg,
-      tags: ['React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'PostgreSQL'],
-      summary: 'An interactive task management app with full frontend-backend connectivity and responsive UI.',
-      description: 'A seamless task management app that provides full frontend-backend integration. It supports creating, updating, and deleting tasks in real-time, utilizing Tailwind CSS for a premium glassmorphic UI and storing data persistently in PostgreSQL.',
-      features: [
-        'Interactive task creation, edit, and deletion',
-        'Persisted database storage with FastAPI and PostgreSQL',
-        'Responsive glassmorphism UI styled with Tailwind CSS',
-        'Real-time status updates and priority categorization'
-      ],
-      github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
-    },
+    // {
+    //   id: 1,
+    //   title: 'Blog System with Admin Panel',
+    //   category: 'Full Stack',
+    //   image: dashboardImg,
+    //   tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'JWT'],
+    //   summary: 'A full-featured blog platform with user authentication, admin panel, and complete CRUD operations.',
+    //   description: 'A robust and scalable blog application featuring user authentication, role-based admin controls, and complete CRUD functionality. Built with a React frontend and a FastAPI backend connected to PostgreSQL database, securing endpoints with JWT tokens.',
+    //   features: [
+    //     'Full-featured blog platform with markdown support',
+    //     'JWT-based user authentication and admin dashboard controls',
+    //     'Designed RESTful API endpoints with FastAPI',
+    //     'Connected to a relational PostgreSQL database structure'
+    //   ],
+    //   github: 'https://github.com/RoshniParmarR',
+    //   live: 'https://github.com/RoshniParmarR',
+    // },
+    // {
+    //   id: 2,
+    //   title: 'Telusko Track',
+    //   category: 'Frontend',
+    //   image: chatImg,
+    //   tags: ['React', 'TypeScript', 'Framer Motion', 'FastAPI', 'PostgreSQL'],
+    //   summary: 'A tracking and progress application featuring premium Framer Motion animations.',
+    //   description: 'Telusko Track is a progress tracking dashboard designed with a strong focus on UI/UX. It incorporates fluid Framer Motion animations to guide user navigation and interactivity, backed by a FastAPI and PostgreSQL integration for progress logging.',
+    //   features: [
+    //     'Visual tracking dashboards with progress analytics',
+    //     'Applied Framer Motion animations for enhanced interactivity',
+    //     'Full-stack state integration with persistent progress logging',
+    //     'Responsive grid view optimized for mobile and desktop screens'
+    //   ],
+    //   github: 'https://github.com/RoshniParmarR',
+    //   live: 'https://github.com/RoshniParmarR',
+    // },
     {
       id: 4,
       title: 'MindCare Clinic',
@@ -165,6 +146,23 @@ const Projects = () => {
       github: 'https://github.com/RoshniParmarR',
       live: 'https://github.com/RoshniParmarR',
     },
+    // {
+    //   id: 4,
+    //   title: 'To-Do List App',
+    //   category: 'Full Stack',
+    //   image: ecommerceImg,
+    //   tags: ['React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'PostgreSQL'],
+    //   summary: 'An interactive task management app with full frontend-backend connectivity and responsive UI.',
+    //   description: 'A seamless task management app that provides full frontend-backend integration. It supports creating, updating, and deleting tasks in real-time, utilizing Tailwind CSS for a premium glassmorphic UI and storing data persistently in PostgreSQL.',
+    //   features: [
+    //     'Interactive task creation, edit, and deletion',
+    //     'Persisted database storage with FastAPI and PostgreSQL',
+    //     'Responsive glassmorphism UI styled with Tailwind CSS',
+    //     'Real-time status updates and priority categorization'
+    //   ],
+    //   github: 'https://github.com/RoshniParmarR',
+    //   live: 'https://github.com/RoshniParmarR',
+    // },
   ];
 
   return (
