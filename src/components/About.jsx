@@ -6,7 +6,7 @@ import resumePdf from '../assets/Roshni Resume full stack.pdf';
 const About = () => {
   const stats = [
     { value: '7 Months', label: 'Internship Exp.' },
-    { value: '9', label: 'Core Projects' },
+    { value: '6', label: 'Core Projects' },
     { value: '2', label: 'Internships Done' },
   ];
 
