@@ -114,21 +114,7 @@ const Resume = ({ isHidden = false }) => {
   ];
 
   const projects = [
-    {
-      title: 'Blog System with Admin Panel',
-      tech: 'React, TypeScript, FastAPI, PostgreSQL, JWT',
-      desc: 'Full-featured blog platform with user authentication, admin panel, and complete CRUD operations.'
-    },
-    {
-      title: 'Telusko Track',
-      tech: 'React, TypeScript, Framer Motion, FastAPI, PostgreSQL',
-      desc: 'Progress tracking dashboard designed with dynamic Framer Motion animations.'
-    },
-    {
-      title: 'To-Do List App',
-      tech: 'React, TypeScript, Tailwind CSS, FastAPI, PostgreSQL',
-      desc: 'Interactive task management app with real-time status updates and a responsive glassmorphic UI.'
-    },
+
     {
       title: 'MindCare Clinic',
       tech: 'React, Tailwind CSS, Vite, Framer Motion',
@@ -158,6 +144,11 @@ const Resume = ({ isHidden = false }) => {
       title: 'Landing Page',
       tech: 'React, Tailwind CSS, Framer Motion, Vite',
       desc: 'Premium product landing page showcasing SaaS dashboard previews and charts.'
+    },
+    {
+      title: 'Rose Boutique',
+      tech: 'React, Tailwind CSS, Vite, Framer Motion',
+      desc: 'Fashion boutique e-commerce platform with lookbooks and seamless checkout.'
     }
   ];
 

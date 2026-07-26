@@ -7,6 +7,7 @@ import pratickImg from '../assets/rk_construction_mockup.png';
 import zeckImg from '../assets/zeko_website_mockup.png';
 import sterlingImg from '../assets/sterling_website_mockup.png';
 import aibamsImg from '../assets/landing_page.png';
+import roseBoutiqueImg from '../assets/rose_boutique_mockup.png';
 
 const Projects = () => {
   const projects = [
@@ -142,6 +143,23 @@ const Projects = () => {
         'Smooth animation flows and feature highlights',
         'Optimized email signup and discount code popups',
         'Fully responsive section layouts and dark mode support'
+      ],
+      github: 'https://github.com/RoshniParmarR',
+      live: 'https://github.com/RoshniParmarR',
+    },
+    {
+      id: 10,
+      title: 'Rose Boutique',
+      category: 'Fashion Boutique',
+      image: roseBoutiqueImg,
+      tags: ['React', 'Tailwind CSS', 'Vite', 'Framer Motion'],
+      summary: 'An elegant fashion boutique e-commerce platform featuring curated apparel collections and a seamless shopping experience.',
+      description: 'Rose Boutique is a modern fashion boutique e-commerce web application designed for luxury apparel, trending fashion collections, and accessories. It features dynamic product filtering, interactive lookbooks, and a responsive checkout workflow.',
+      features: [
+        'Interactive fashion lookbook and product showcase',
+        'Category-based filter and search capabilities',
+        'Responsive shopping cart and checkout UI',
+        'Modern minimalist design with smooth animations'
       ],
       github: 'https://github.com/RoshniParmarR',
       live: 'https://github.com/RoshniParmarR',
