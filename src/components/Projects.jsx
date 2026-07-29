@@ -81,7 +81,7 @@ const Projects = () => {
     },
     {
       id: 6,
-      title: 'RK Construction Website',
+      title: 'Prakash Construction Website',
       category: 'Construction',
       image: pratickImg,
       tags: ['React', 'CSS Modules', 'Lucide Icons', 'Vite'],
