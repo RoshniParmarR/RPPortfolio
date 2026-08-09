@@ -14,23 +14,6 @@ import godaddyImg from '../assets/godaddy_website_mockup.png';
 const Projects = () => {
   const projects = [
     {
-      id: 11,
-      title: 'GoDaddy Portal Replica',
-      category: 'Web App',
-      image: godaddyImg,
-      tags: ['React', 'Tailwind CSS', 'Vite', 'Lucide Icons'],
-      summary: 'A full-featured replica of the GoDaddy domain registration & hosting management dashboard platform.',
-      description: 'A comprehensive GoDaddy portal clone featuring domain search, domain portfolio management, hosting plans, cart workflows, profile management, and responsive side navigation.',
-      features: [
-        'Official GoDaddy GO Heart logo & branding',
-        'Domain search & extension filters',
-        'Cart & promo code discount system',
-        'Responsive sidebar navigation & dashboard views'
-      ],
-      github: 'https://github.com/RoshniParmarR/Godaddy',
-      live: 'https://roshniparmarr.github.io/Godaddy/',
-    },
-    {
       id: 4,
       title: 'MindCare Clinic',
       category: 'Corporate',
@@ -134,6 +117,23 @@ const Projects = () => {
     },
     {
       id: 10,
+      title: 'GoDaddy Portal Replica',
+      category: 'Web App',
+      image: godaddyImg,
+      tags: ['React', 'Tailwind CSS', 'Vite', 'Lucide Icons'],
+      summary: 'A full-featured replica of the GoDaddy domain registration & hosting management dashboard platform.',
+      description: 'A comprehensive GoDaddy portal clone featuring domain search, domain portfolio management, hosting plans, cart workflows, profile management, and responsive side navigation.',
+      features: [
+        'Official GoDaddy GO Heart logo & branding',
+        'Domain search & extension filters',
+        'Cart & promo code discount system',
+        'Responsive sidebar navigation & dashboard views'
+      ],
+      github: 'https://github.com/RoshniParmarR/Godaddy',
+      live: 'https://roshniparmarr.github.io/Godaddy/',
+    },
+    {
+      id: 11,
       title: 'Rose Boutique',
       category: 'Fashion Boutique',
       image: roseBoutiqueImg,
