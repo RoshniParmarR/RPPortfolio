@@ -12,7 +12,7 @@ const Experience = () => {
       description: [
         'Developed and maintained full-stack web applications using React, TypeScript, Tailwind CSS, FastAPI, and PostgreSQL.',
         'Built the MindCare Clinic website, featuring interactive client intake, service scheduling, and responsive layouts.',
-        'Developed the RK Construction Website (Main Construction), showcasing luxury architectural designs and custom project timelines.',
+        'Developed the Prakash Construction Website (Main Construction), showcasing luxury architectural designs and custom project timelines.',
         'Created the Axion Manufacturing Website (Manufacturing Company) highlighting heavy industrial equipment catalogs and lead forms.',
         'Built a complete Blog System with admin panel, JWT authentication, and CRUD operations via REST API.',
         'Collaborated on UI/UX design for multiple client-facing projects including landing pages and admin dashboards.',

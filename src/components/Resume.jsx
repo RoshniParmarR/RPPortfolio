@@ -98,7 +98,7 @@ const Resume = ({ isHidden = false }) => {
       duration: 'Jan 2026 - Jun 2026',
       bullets: [
         'Developed full-stack web applications using React, TypeScript, FastAPI, and PostgreSQL.',
-        'Built the MindCare Clinic, RK Construction, and Axion Manufacturing websites.',
+        'Built the MindCare Clinic, Prakash Construction, and Snmukh engineer websites.',
         'Created a secure Blog System with JWT authentication and CRUD REST APIs.'
       ]
     },
@@ -116,17 +116,17 @@ const Resume = ({ isHidden = false }) => {
   const projects = [
 
     {
-      title: 'MindCare Clinic',
+      title: 'MindCare',
       tech: 'React, Tailwind CSS, Vite, Framer Motion',
       desc: 'Premium website showcasing interactive client intake and customized appointment scheduling.'
     },
     {
-      title: 'Axion Manufacturing Website',
+      title: 'Snmukh Engineer Website',
       tech: 'HTML5, Tailwind CSS, JavaScript, ScrollReveal',
       desc: 'Corporate showcase highlighting heavy industrial equipment catalogs and inline quotation forms.'
     },
     {
-      title: 'RK Construction Website',
+      title: 'Prakash Construction Website',
       tech: 'React, CSS Modules, Lucide Icons, Vite',
       desc: 'Architectural portfolio showcasing luxury design timelines and client reviews.'
     },
@@ -136,7 +136,7 @@ const Resume = ({ isHidden = false }) => {
       desc: 'Business consulting portal featuring service cost calculators and booking integrations.'
     },
     {
-      title: 'Chemical Company',
+      title: 'Sterlin Chemicals',
       tech: 'HTML5, CSS3, JavaScript, Vite',
       desc: 'Industrial corporate catalog featuring bulk shipping estimators and MSDS downloads.'
     },

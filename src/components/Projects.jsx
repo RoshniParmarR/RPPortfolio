@@ -1,9 +1,10 @@
 import React from 'react';
+import { ExternalLink } from 'lucide-react';
 import ScrollReveal from './ScrollReveal';
 import ecommerceImg from '../assets/Screenshot 2026-07-17 161829.png';
 import harmonyImg from '../assets/mindcare_clinic.png';
-import sumukhImg from '../assets/axion_manufacturing_mockup.png';
-import pratickImg from '../assets/rk_construction_mockup.png';
+import sumukhImg from '../assets/snmukh_portfolio_showcase.png';
+import pratickImg from '../assets/prakash_construction_mockup.png';
 import zeckImg from '../assets/zeko_website_mockup.png';
 import sterlingImg from '../assets/sterling_website_mockup.png';
 import aibamsImg from '../assets/landing_page.png';
@@ -11,40 +12,6 @@ import roseBoutiqueImg from '../assets/rose_boutique_mockup.png';
 
 const Projects = () => {
   const projects = [
-    // {
-    //   id: 1,
-    //   title: 'Blog System with Admin Panel',
-    //   category: 'Full Stack',
-    //   image: dashboardImg,
-    //   tags: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'JWT'],
-    //   summary: 'A full-featured blog platform with user authentication, admin panel, and complete CRUD operations.',
-    //   description: 'A robust and scalable blog application featuring user authentication, role-based admin controls, and complete CRUD functionality. Built with a React frontend and a FastAPI backend connected to PostgreSQL database, securing endpoints with JWT tokens.',
-    //   features: [
-    //     'Full-featured blog platform with markdown support',
-    //     'JWT-based user authentication and admin dashboard controls',
-    //     'Designed RESTful API endpoints with FastAPI',
-    //     'Connected to a relational PostgreSQL database structure'
-    //   ],
-    //   github: 'https://github.com/RoshniParmarR',
-    //   live: 'https://github.com/RoshniParmarR',
-    // },
-    // {
-    //   id: 2,
-    //   title: 'Telusko Track',
-    //   category: 'Frontend',
-    //   image: chatImg,
-    //   tags: ['React', 'TypeScript', 'Framer Motion', 'FastAPI', 'PostgreSQL'],
-    //   summary: 'A tracking and progress application featuring premium Framer Motion animations.',
-    //   description: 'Telusko Track is a progress tracking dashboard designed with a strong focus on UI/UX. It incorporates fluid Framer Motion animations to guide user navigation and interactivity, backed by a FastAPI and PostgreSQL integration for progress logging.',
-    //   features: [
-    //     'Visual tracking dashboards with progress analytics',
-    //     'Applied Framer Motion animations for enhanced interactivity',
-    //     'Full-stack state integration with persistent progress logging',
-    //     'Responsive grid view optimized for mobile and desktop screens'
-    //   ],
-    //   github: 'https://github.com/RoshniParmarR',
-    //   live: 'https://github.com/RoshniParmarR',
-    // },
     {
       id: 4,
       title: 'MindCare Clinic',
@@ -60,11 +27,11 @@ const Projects = () => {
         'Fully responsive layout optimized for all device sizes'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/mindcare/',
     },
     {
       id: 5,
-      title: 'Axion Manufacturing Website',
+      title: 'Snmukh engineer Website',
       category: 'Corporate',
       image: sumukhImg,
       tags: ['HTML5', 'Tailwind CSS', 'JavaScript', 'ScrollReveal'],
@@ -77,7 +44,7 @@ const Projects = () => {
         'Online quotation and contact forms'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/Snmukh-enigneer/',
     },
     {
       id: 6,
@@ -86,7 +53,7 @@ const Projects = () => {
       image: pratickImg,
       tags: ['React', 'CSS Modules', 'Lucide Icons', 'Vite'],
       summary: 'Portfolio and services platform for an architectural design and luxury home construction firm.',
-      description: 'Pratick Construction is a clean, minimalist portfolio website for a luxury home building and design firm. It uses high-contrast layouts to highlight blueprints, interior designs, and construction management milestones.',
+      description: 'Prakash Construction is a clean, minimalist portfolio website for a luxury home building and design firm. It uses high-contrast layouts to highlight blueprints, interior designs, and construction management milestones.',
       features: [
         'High-definition architectural project portfolios',
         'Step-by-step building process timeline guide',
@@ -94,7 +61,7 @@ const Projects = () => {
         'Testimonials and client satisfaction surveys'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/Prakash-Construction/',
     },
     {
       id: 7,
@@ -111,16 +78,16 @@ const Projects = () => {
         'Interactive team bios and capability charts'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/ZEKO-PRIVATE-LTD/',
     },
     {
       id: 8,
-      title: 'Chemical company',
+      title: 'Sterlin Chemicals',
       category: 'Corporate',
       image: sterlingImg,
       tags: ['HTML5', 'CSS3', 'JavaScript', 'Vite'],
       summary: 'Industrial corporate website for a chemical manufacturer featuring safety documentation and chemical supply catalogs.',
-      description: 'Sterling Chemical is a specialized industrial web portal for a manufacturer of bulk industrial chemicals. It features clean product catalogs, online Material Safety Data Sheet (MSDS) downloads, and bulk order supply forms.',
+      description: 'Sterlin Chemicals is a specialized industrial web portal for a manufacturer of bulk industrial chemicals. It features clean product catalogs, online Material Safety Data Sheet (MSDS) downloads, and bulk order supply forms.',
       features: [
         'Fully searchable chemical catalog with filtration',
         'One-click Material Safety Data Sheet (MSDS) downloads',
@@ -128,7 +95,7 @@ const Projects = () => {
         'Compliance and environmental policy displays'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/Sterlin-chemicals/',
     },
     {
       id: 9,
@@ -145,7 +112,7 @@ const Projects = () => {
         'Fully responsive section layouts and dark mode support'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/Landing-page/',
     },
     {
       id: 10,
@@ -162,25 +129,8 @@ const Projects = () => {
         'Modern minimalist design with smooth animations'
       ],
       github: 'https://github.com/RoshniParmarR',
-      live: 'https://github.com/RoshniParmarR',
+      live: 'https://roshniparmarr.github.io/ROSEBOUTIQUE/',
     },
-    // {
-    //   id: 4,
-    //   title: 'To-Do List App',
-    //   category: 'Full Stack',
-    //   image: ecommerceImg,
-    //   tags: ['React', 'TypeScript', 'Tailwind CSS', 'FastAPI', 'PostgreSQL'],
-    //   summary: 'An interactive task management app with full frontend-backend connectivity and responsive UI.',
-    //   description: 'A seamless task management app that provides full frontend-backend integration. It supports creating, updating, and deleting tasks in real-time, utilizing Tailwind CSS for a premium glassmorphic UI and storing data persistently in PostgreSQL.',
-    //   features: [
-    //     'Interactive task creation, edit, and deletion',
-    //     'Persisted database storage with FastAPI and PostgreSQL',
-    //     'Responsive glassmorphism UI styled with Tailwind CSS',
-    //     'Real-time status updates and priority categorization'
-    //   ],
-    //   github: 'https://github.com/RoshniParmarR',
-    //   live: 'https://github.com/RoshniParmarR',
-    // },
   ];
 
   return (
@@ -197,7 +147,7 @@ const Projects = () => {
               Featured Projects
             </h2>
             <p className="mt-4 text-neutral-500 dark:text-neutral-400 text-[16px] leading-relaxed">
-              A curated showcase of professional web applications and client websites built with modern technologies.
+              A curated showcase of professional web applications and client websites built with modern technologies. Click any project to view the live website.
             </p>
           </div>
         </ScrollReveal>
@@ -206,34 +156,55 @@ const Projects = () => {
         <ScrollReveal direction="up" delay={150}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
             {projects.map((project) => (
-              <div
+              <a
                 key={project.id}
-                className="flex flex-col h-full bg-neutral-50 dark:bg-neutral-950 border border-neutral-200/60 dark:border-neutral-900 overflow-hidden shadow-sm relative"
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col h-full bg-neutral-50 dark:bg-neutral-950 border border-neutral-200/60 dark:border-neutral-900 overflow-hidden shadow-sm relative transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lg hover:border-neutral-300 dark:hover:border-neutral-700 cursor-pointer block text-inherit no-underline"
               >
                 {/* Project Image Container */}
                 <div className="relative aspect-video w-full overflow-hidden bg-neutral-200 dark:bg-neutral-900 border-b border-neutral-200/60 dark:border-neutral-900 flex-shrink-0">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+
                 </div>
 
                 {/* Card Content */}
-                <div className="p-6 flex flex-col flex-grow relative z-10">
+                <div className="p-6 flex flex-col flex-grow relative z-10 justify-between">
 
                   {/* Title & Summary */}
-                  <div className="space-y-2.5 flex-grow">
-                    <h3 className="text-[20px] font-medium text-neutral-900 dark:text-white leading-tight">
-                      {project.title}
-                    </h3>
+                  <div className="space-y-2.5">
+                    <div className="flex items-center justify-between gap-2">
+                      <h3 className="text-[20px] font-medium text-neutral-900 dark:text-white leading-tight group-hover:text-black dark:group-hover:text-neutral-100 transition-colors">
+                        {project.title}
+                      </h3>
+                      <ExternalLink className="w-4 h-4 text-neutral-400 group-hover:text-neutral-900 dark:group-hover:text-white transition-colors flex-shrink-0" />
+                    </div>
                     <p className="text-[14px] text-neutral-500 dark:text-neutral-400 leading-relaxed line-clamp-3">
                       {project.summary}
                     </p>
                   </div>
 
+                  {/* Tech Tags */}
+                  {project.tags && project.tags.length > 0 && (
+                    <div className="flex flex-wrap gap-1.5 mt-5 pt-4 border-t border-neutral-200/60 dark:border-neutral-900">
+                      {project.tags.map((tag, tIdx) => (
+                        <span
+                          key={tIdx}
+                          className="text-[11px] font-medium px-2 py-0.5 bg-neutral-200/60 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded-xs"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </ScrollReveal>
@@ -244,3 +215,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
