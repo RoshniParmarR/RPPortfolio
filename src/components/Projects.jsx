@@ -207,19 +207,6 @@ const Projects = () => {
                     </p>
                   </div>
 
-                  {/* Tech Tags */}
-                  {project.tags && project.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-1.5 mt-5 pt-4 border-t border-neutral-200/60 dark:border-neutral-900">
-                      {project.tags.map((tag, tIdx) => (
-                        <span
-                          key={tIdx}
-                          className="text-[11px] font-medium px-2 py-0.5 bg-neutral-200/60 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded-xs"
-                        >
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
 
                 </div>
               </a>
