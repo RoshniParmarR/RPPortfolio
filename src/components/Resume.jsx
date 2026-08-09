@@ -149,6 +149,11 @@ const Resume = ({ isHidden = false }) => {
       title: 'Rose Boutique',
       tech: 'React, Tailwind CSS, Vite, Framer Motion',
       desc: 'Fashion boutique e-commerce platform with lookbooks and seamless checkout.'
+    },
+    {
+      title: 'GoDaddy Portal Replica',
+      tech: 'React, Tailwind CSS, Vite, Lucide Icons',
+      desc: 'Full-featured replica of domain registration & hosting management dashboard platform.'
     }
   ];
 
