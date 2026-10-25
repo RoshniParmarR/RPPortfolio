@@ -88,7 +88,10 @@ const Resume = ({ isHidden = false }) => {
     'PostgreSQL & MySQL',
     'REST APIs & JWT Auth',
     'Git, GitHub & Docker',
-    'UI/UX Design & Prototyping'
+    'UI/UX Design & Prototyping',
+    'Excel',
+    'Microsoft Word',
+    'Powerpoint'
   ];
 
   const experiences = [
@@ -109,6 +112,15 @@ const Resume = ({ isHidden = false }) => {
       bullets: [
         'Focused on frontend development with HTML, CSS, JavaScript, and React.',
         'Developed clean, highly responsive layout modules for client websites.'
+      ]
+    },
+    {
+      role: 'Web Development & Designing Intern (AICTE OIB-SIP)',
+      company: 'Oasis Infobyte',
+      duration: 'Feb 2025 - Mar 2025',
+      bullets: [
+        'Completed 1-month AICTE OIB-SIP certified internship in Web Development and Designing.',
+        'Gained hands-on experience in building and styling web interfaces.'
       ]
     }
   ];
@@ -366,7 +378,7 @@ const Resume = ({ isHidden = false }) => {
                 Profile
               </h2>
               <p className="text-[10px] leading-relaxed text-neutral-600 font-light">
-                A motivated Full Stack Developer with a B.E. in Information Technology (CGPA 8.20) and 7 months of hands-on internship experience. Proficient in building end-to-end web applications using React, TypeScript, FastAPI, and PostgreSQL. Quick learner with a strong passion for UI/UX design and scalable web development.
+                A motivated Full Stack Developer with a B.E. in Information Technology (CGPA 8.20) and 8 months of hands-on internship experience. Proficient in building end-to-end web applications using React, TypeScript, FastAPI, and PostgreSQL. Quick learner with a strong passion for UI/UX design and scalable web development.
               </p>
             </section>
 

@@ -29,6 +29,17 @@ const Experience = () => {
         'Assisted in designing and developing responsive web pages and layouts.',
       ],
     },
+    {
+      role: 'Web Development & Designing Intern (AICTE OIB-SIP)',
+      company: 'Oasis Infobyte',
+      duration: 'Feb 2025 - Mar 2025',
+      location: 'Remote',
+      description: [
+        'Completed 1-month AICTE OIB-SIP certified internship in Web Development and Designing at Oasis Infobyte.',
+        'Built and styled interactive web interfaces with a focus on responsive design principles.',
+        'Earned an official Certificate of Completion with wonderful remarks from the Program Coordinator.',
+      ],
+    },
   ];
 
   return (

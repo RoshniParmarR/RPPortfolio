@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Mail, ChevronDown } from 'lucide-react';
 import { Github, Linkedin } from './BrandIcons';
-import avatarImg from '../assets/developer_avatar.jpg';
+import avatarImg from '../assets/myimg.jpeg';
 import ScrollReveal from './ScrollReveal';
 
 const Hero = () => {
@@ -116,8 +116,8 @@ const Hero = () => {
               <img
                 src={avatarImg}
                 alt="Roshni - Portfolio Image"
-                className="w-72 h-72 max-w-[80vw] max-h-[80vw] md:w-96 md:h-96 object-cover object-center transition-all duration-500"
-                style={{ borderRadius: '50%' }}
+                className="w-72 h-72 max-w-[80vw] max-h-[80vw] md:w-96 md:h-96 object-cover transition-all duration-500"
+                style={{ borderRadius: '50%', objectPosition: '50% 35%' }}
               />
             </ScrollReveal>
           </div>
